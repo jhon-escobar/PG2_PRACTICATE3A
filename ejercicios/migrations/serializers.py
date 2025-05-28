@@ -22,6 +22,6 @@ class displinaSerializer(serializers.ModelSerializer):
         ]
 
 
-class MateriaSerializer(serializers.ModelSerializer):
+class disiplinaSerializer(serializers.ModelSerializer):
     class Meta:
         model = disiplina
