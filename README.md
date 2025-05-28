@@ -149,4 +149,4 @@ area = models.CharField(max_length=150)
 
 ### Imagen del Diagrama.png
 
-![Api](https://github.com/jhon-escobar/PG2_PRACTICATE3A/blob/08d2013c0d040834f9e9b599c501fa9da5510f44/png/Annotation%202025-05-27%20220525.png)
+![Texto alternativo de la imagen](https://github.com/jhon-escobar/PG2_PRACTICATE3A/blob/08d2013c0d040834f9e9b599c501fa9da5510f44/png/Annotation%202025-05-27%20220525.png)
