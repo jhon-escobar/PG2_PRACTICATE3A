@@ -80,7 +80,8 @@ class Certificacion(models.Model):
 
 ```
 
-<p> de esta manera veriamos el codigo completo incliyendo  la entidad relacion definiendo las llaves primarias, foranias
+#### de esta manera veriamos el codigo completo incliyendo la entidad relacion definiendo las llaves primarias, foranias
+
 ```python
 from django.db import models
 
@@ -146,4 +147,6 @@ area = models.CharField(max_length=150)
 
 ```
 
-```
+### Imagen del Diagrama.png
+
+![Texto alternativo de la imagen](URL_de_la_imagen)
