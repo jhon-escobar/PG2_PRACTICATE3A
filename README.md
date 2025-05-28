@@ -15,6 +15,7 @@ la paractica consiste en hacer una API enfocado en la disiplina llamada atletism
 
 el api tendra estos atributos segun la entidad.
 
+<hr>
 ### Disiplina
 
 ```python
@@ -26,7 +27,7 @@ class disiplina(models.Model):
 ```
 
 <p> dara imformacion acerca de que tipo de disiplina habra tambien la toto para que vean  mas o menos un ejemplo de como seran las disiplinas
-
+<hr>
 ### Tipo Competencia
 
 ```python
@@ -41,7 +42,7 @@ class tipoCompetencia(models.Model):
 ```
 
 <p>Dara imformacion de  tipos dencompetencias habra de acuerdo a la disiplina que escojamos
-
+<hr>
 ### Regla
 
 ```python
@@ -54,7 +55,7 @@ class regla(models.Model):
 
 <p>Dara que reglas tiene que respetarse y tambien que cosas no se puede hacer tanto como la cdisiplina
  como el tipo de  competencia
-
+<hr>
 ### Recomendacion
 
 ```python
@@ -66,7 +67,8 @@ class Recomendacion(models.Model):
 
 ```
 
-<p>Se dara pautas de que manera puede entrenar y que tipo de dieta necesita de acuerdo con la disiplina  enfocada en el tipo de competencia
+<p>Se dara pautas de que manera puede entrenar y que tipo de dieta necesita de acuerdo con la disiplina  enfocada en el tipo de competencia.
+<hr>
 ### Expeto
 
 ```python
@@ -78,6 +80,7 @@ class experto(models.Model):
 ```
 
 <p>Se dara la informacion del una Experto enficado en el tipo de competencia ya que  es crucial de como el cliente usuario puede mejorar.
+<hr>
 ### Certificacion
 
 ```python
@@ -158,6 +161,9 @@ area = models.CharField(max_length=150)
 
 ```
 
+<hr>
 ### Imagen del Diagrama.png
 
 ![Texto alternativo de la imagen](https://github.com/jhon-escobar/PG2_PRACTICATE3A/blob/08d2013c0d040834f9e9b599c501fa9da5510f44/png/Annotation%202025-05-27%20220525.png)
+
+<hr>
