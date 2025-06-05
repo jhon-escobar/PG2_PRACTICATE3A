@@ -27,8 +27,8 @@ from ejercicios.views import ejerciciosViewSet, disiplinaViewSet
 # Create a router and register our viewset with it.
 router = routers.DefaultRouter()
 
-router.register(r"estudiantes", ejerciciosViewSet)
-router.register(r"materias", disiplinaViewSet)
+router.register(r"ejercicios", ejerciciosViewSet)
+router.register(r"disiplina", disiplinaViewSet)
 
 urlpatterns = [
     path("admin/", admin.site.urls),
