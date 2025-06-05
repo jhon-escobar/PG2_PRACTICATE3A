@@ -6,20 +6,46 @@ class ejerciciosteSerializer(serializers.ModelSerializer):
     class Meta:
         model = disiplina
         fields = [
-            "id",
             "nombre",
-            "apellido",
-            "fecha_hora_matricula",
-            "apodo",
-            "intereses",
-            "ciudad",
-            "pais",
-            "edad",
-            "correo",
+            "foto",
         ]
 
 
 class disiplinaSerializer(serializers.ModelSerializer):
     class Meta:
-        model = disiplina
-        fields = "__all__"
+        model = Certificacion
+        fields = [
+            "nombre certificacion",
+            "fecha de emision",
+        ]
+
+
+class disiplinaserializer(serializers.ModelSerializer):
+    class Meta:
+        model = tipoCompetencia
+        fields = [
+            "nobre",
+            "detalle",
+            "estilo",
+            "distancia",
+            "yiempo",
+        ]
+
+
+class disiplinaserializer(serializers.ModelSerializer):
+    class Meta:
+        model = regla
+        fields = [
+            "numero",
+            "detalle",
+            "norma_establecida",
+        ]
+
+
+class disiplinaserializer(serializers.ModelSerializer):
+    class Meta:
+        model = experto
+        fields = [
+            "nombre",
+            "area",
+        ]
