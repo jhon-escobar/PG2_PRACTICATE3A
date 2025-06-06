@@ -22,11 +22,6 @@ class CertificacionViewSet(viewsets.ModelViewSet):
     serializer_class = CertificacionSerializer
 
 
-class CertificacionViewSet(viewsets.ModelViewSet):
-    queryset = Certificacion.objects.all()
-    serializer_class = CertificacionSerializer
-
-
 class RecomendacionViewSet(viewsets.ModelViewSet):
     queryset = Recomendacion.objects.all()
     serializer_class = RecomendacionSerializer
