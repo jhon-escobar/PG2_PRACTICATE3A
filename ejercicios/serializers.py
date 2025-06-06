@@ -2,7 +2,7 @@ from ejercicios.models import *
 from rest_framework import serializers
 
 
-class ejerciciosteSerializer(serializers.ModelSerializer):
+class disiplinaSerializer(serializers.ModelSerializer):
     class Meta:
         model = disiplina
         fields = [
@@ -11,7 +11,7 @@ class ejerciciosteSerializer(serializers.ModelSerializer):
         ]
 
 
-class disiplinaSerializer(serializers.ModelSerializer):
+class CertificacionSerializer(serializers.ModelSerializer):
     class Meta:
         model = Certificacion
         fields = [
@@ -20,7 +20,16 @@ class disiplinaSerializer(serializers.ModelSerializer):
         ]
 
 
-class disiplinaserializer(serializers.ModelSerializer):
+class RecomendacionSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Recomendacion
+        fields = [
+            "titulo",
+            "descripcion",
+        ]
+
+
+class tipoCompetenciaSerializer(serializers.ModelSerializer):
     class Meta:
         model = tipoCompetencia
         fields = [
@@ -32,7 +41,7 @@ class disiplinaserializer(serializers.ModelSerializer):
         ]
 
 
-class disiplinaserializer(serializers.ModelSerializer):
+class reglaSerializer(serializers.ModelSerializer):
     class Meta:
         model = regla
         fields = [
@@ -42,7 +51,7 @@ class disiplinaserializer(serializers.ModelSerializer):
         ]
 
 
-class disiplinaserializer(serializers.ModelSerializer):
+class expertoSerializer(serializers.ModelSerializer):
     class Meta:
         model = experto
         fields = [
