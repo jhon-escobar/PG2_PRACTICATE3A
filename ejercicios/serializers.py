@@ -5,56 +5,34 @@ from rest_framework import serializers
 class disiplinaSerializer(serializers.ModelSerializer):
     class Meta:
         model = disiplina
-        fields = [
-            "nombre",
-            "foto",
-        ]
+        fields = "_all_"
 
 
 class CertificacionSerializer(serializers.ModelSerializer):
     class Meta:
         model = Certificacion
-        fields = [
-            "nombre certificacion",
-            "fecha de emision",
-        ]
+        fields = "_all_"
 
 
 class RecomendacionSerializer(serializers.ModelSerializer):
     class Meta:
         model = Recomendacion
-        fields = [
-            "titulo",
-            "descripcion",
-        ]
+        fields = "_all_"
 
 
 class tipoCompetenciaSerializer(serializers.ModelSerializer):
     class Meta:
         model = tipoCompetencia
-        fields = [
-            "nobre",
-            "detalle",
-            "estilo",
-            "distancia",
-            "yiempo",
-        ]
+        fields = "_all_"
 
 
 class reglaSerializer(serializers.ModelSerializer):
     class Meta:
         model = regla
-        fields = [
-            "numero",
-            "detalle",
-            "norma_establecida",
-        ]
+        fields = "_all_"
 
 
 class expertoSerializer(serializers.ModelSerializer):
     class Meta:
         model = experto
-        fields = [
-            "nombre",
-            "area",
-        ]
+        fields = "_all_"
